@@ -360,3 +360,79 @@ body{
     padding-top: -10px;
     margin-top: 10px;
 }
+/* Testimonial section */
+
+/* Contact section */
+
+  
+
+.contact-title{
+  margin-bottom: 3rem;
+  margin-right: 50px;
+  font-family: 'Epilogue';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  
+  color: #2d2d2d;
+}
+
+.contact-description{
+  width: 570px;
+  height: 81px;
+  font-weight: 400;
+  font-family: 'Epilogue';
+  font-size: 17px;
+  line-height: 27px;
+  color: #2D2D2D;
+}
+
+.social-networks{
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  list-style: none;
+}
+
+.social-network{
+  position: relative;
+  display:inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+.social-network-1{
+  margin-top: 5px;
+}
+
+
+/* Form section  */
+
+.form-container {
+  width: 520px;
+  float: right;
+  margin-top: -11rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #2e2e2e;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Form section */
