@@ -209,7 +209,7 @@ body{
 .gallery-work-1 {
   margin-bottom: -2rem;
   margin-right: 50px;
-  font-family: 'epilogue';
+  font-family: 'Epilogue';
   font-weight: 600;
   font-size: 25px;
   line-height: 42px;
@@ -237,9 +237,9 @@ body{
   margin-right:24px;
 }
 
-.gallery-subtitle {
+.subtitle-title {
   color: #2d2d2d;
-  font-family: 'epilogue';
+  font-family: 'Epilogue';
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -248,7 +248,7 @@ body{
 
 .gallery-body-text {
   margin-top: -30px;
-  font-family: 'epilogue';
+  font-family: 'Epilogue';
   font-weight: 400;
   font-size: 17px;
   line-height: 27px;
@@ -265,3 +265,98 @@ body{
 }
 
 /* Gallery section */
+
+/* Testimonial section */
+
+.testimonial{
+  max-width: 1340px;
+  width: 100%;  
+}
+
+
+.testimonial-title{
+  margin-bottom: 3rem;
+  margin-right: 50px;
+  font-family: 'Epilogue';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.testimonial-cards{
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-right: 10px;
+
+ 
+}
+
+.testimonial-card{
+  width: 400px;
+  text-align:center;
+  background-color:#F3F3F3;
+  height: 330px;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  float: left;
+  flex-direction: column;
+  display: flex;
+}
+.testimonial-card__text{
+  padding-top:42px;
+  font-size:20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  line-height: 30px;
+  width: 310px;
+  height: 90px;
+  font-weight: 600;
+  font-family: 'Epilogue' ;
+  margin-left: 20px;
+  margin-top: -10px;
+  margin-bottom: 30px; 
+  
+
+} 
+.testimonial-item__rate{
+  color:#2D2D2D;
+  margin-top: 5px;
+}
+
+.testimonial-card img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+   float:left;
+   margin-left: 65px;
+   margin-top:10px;
+}
+
+
+.testimonial-cards img{
+  margin-bottom: -3rem;
+  margin-top: 40px;
+  
+}
+
+
+
+.testimonial-card__client-text{
+  display: block;
+  margin-top: -5px;
+  text-align: center;
+  margin-left: -55px;
+
+}
+
+.testimonial-card__client-name{
+    padding-top: -10px;
+    margin-top: 10px;
+}
