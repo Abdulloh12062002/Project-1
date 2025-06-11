@@ -234,6 +234,7 @@ body{
   height: 419px;
   min-width: 320px;
   gap: 24rem;
+  margin-right:24px;
 }
 
 .gallery-subtitle {
