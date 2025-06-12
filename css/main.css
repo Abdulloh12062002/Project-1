@@ -365,7 +365,13 @@ body{
 /* Testimonial section */
 
 /* Contact section */
-
+.contact-container{
+  width: 1340px;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin: 0 auto;
+}
   
 
 .contact-title{
@@ -392,9 +398,11 @@ body{
 
 .social-networks{
   display: flex;
+  position: absolute;
   gap: 20px;
   padding: 10px;
   list-style: none;
+  align-items: center;
 }
 
 .social-network{
@@ -404,17 +412,13 @@ body{
   height: 36px;
 }
 
-.social-network-1{
-  margin-top: 5px;
-}
-
 
 /* Form section  */
 
 .form-container {
   width: 520px;
   float: right;
-  margin-top: -11rem;
+  margin-top: -6rem;
 }
 
 .form-input {
@@ -423,18 +427,25 @@ body{
   margin-bottom: 10px;
   background-color: #f2f2f2;
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   box-sizing: border-box;
 }
 
 .submit-button {
   background-color: #2e2e2e;
+  margin-top: 20px;
   color: white;
-  padding: 15px 30px;
-  border: none;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
+  padding-top: 24px;
+  padding-left: 64px;
+  padding-bottom: 24px;
+  padding-right: 64px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30%;
+  font-family:'Epilogue' ;
+  gap: 10px;
+  width: 230px;
+  height: 78px;
 }
 
 /* Form section */
