@@ -219,22 +219,23 @@ body{
 }
 
 .gallery-cards {
-  width: 1280px;
+  width: 1340px;
   height: 1030px;
   padding-top: 42px;
   padding-right: 24px;
   padding-bottom: 42px;
-  padding-left: 24px;
-  margin-left: 2.5rem;
+  padding-left: 4px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .gallery-card {
   display: inline-block;
-  width: 394;
+  width: 400px;
   height: 419px;
   min-width: 320px;
   gap: 24rem;
-  margin-right:24px;
+  margin-right:34px;
 }
 
 .subtitle-title {
@@ -262,6 +263,7 @@ body{
   height: 330px;
  
  margin-top: 1.5rem;
+ margin-left: -5px;
 }
 
 /* Gallery section */
