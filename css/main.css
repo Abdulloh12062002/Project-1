@@ -449,3 +449,53 @@ body{
 }
 
 /* Form section */
+
+/* Media section For tablet */
+@media only screen and (max-width:1067px) {
+  
+  .container {
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+
+  .main-header{
+    width: 100%;
+    align-items: center;
+    margin-left: 0.7rem;
+
+  }
+ .main-navigation{
+   margin-left: -30rem;
+ }
+
+ /* Main section */
+
+ .main-section{
+  margin-left: 10px;
+ }
+
+
+ 
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+ 
+}
+
+/* @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  } */
