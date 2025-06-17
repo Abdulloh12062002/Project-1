@@ -207,6 +207,7 @@ body{
 /* Gallery section */
 
 .gallery-work-1 {
+  display: block;
   margin-bottom: -2rem;
   margin-right: 50px;
   font-family: 'Epilogue';
@@ -451,7 +452,7 @@ body{
 /* Form section */
 
 /* Media section For tablet */
-@media only screen and (max-width:1067px) {
+@media only screen and (min-width:767px) and (max-width:1067px) {
   
   .container {
     display: flex;
@@ -477,25 +478,166 @@ body{
  .main-section{
   margin-left: 10px;
  }
-
-
+ /* Main section */
  
+ /* Partner section */
+ .partners {
+  width: 70%;
+  flex-wrap: wrap;
+  
+ }
+/* Prtners section */
+/*  Skills Section  */
+ .skills-cards{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+ }
 
+/*  Skills Section  */
 
+  /*  Gallery section */
+  .gallery{
+    display: block;
+    flex-wrap: wrap;
   
+  }
 
+  .gallery-cards{
+    width: 100%;
+    display: block;
+    justify-items: center; 
+    
+  
+  }
+  
+  .gallery-work-1{
+    align-items: center;
+    text-align: center;
+    margin-right: 16rem;
+    margin-left: -6rem;
+  }
 
-  
-  
-  
-  
-  
-  
+  .gallery-card{
+    margin-top: 0.5rem;
+   margin-left: 3rem;
+   margin-right: 4rem;
+   padding-bottom: 10px;
+  }
+   .gallery-image {
+   width: 350px;
+   height: 300px;
  
 }
+ /* Gallery section  */
+ 
 
-/* @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  body {
-    font-size: 16px;
-    padding: 20px;
-  } */
+/* Testimonial Section  */
+.testimonial{
+ width: 1067px;
+ margin-top: 17rem;
+ margin-left: 10px;
+ align-items: center;
+ margin-right: -14rem;
+ 
+
+}
+
+/* Testimonial Section  */
+/* Contact setion  */
+.contact-container{
+  width: 1067px;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+.contact-title{
+  margin-bottom: 3rem;
+  margin-right: 30px;
+  font-family: 'Epilogue';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  
+  color: #2d2d2d;
+}
+
+.contact-description{
+  width: 370px;
+  height: 51px;
+  font-weight: 400;
+  font-family: 'Epilogue';
+  font-size: 17px;
+  line-height: 27px;
+  color: #2D2D2D;
+  margin-bottom: 7rem;
+}
+
+.social-networks{
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  padding: 5px;
+  list-style: none;
+  align-items: center;
+}
+
+.social-network{
+  position: relative;
+  display:inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+
+.form-container{
+  margin-left: 1rem;
+  width: 40%;
+  float: right;
+  margin-top: -10rem;
+  margin-left: -20rem;
+}
+}
+/* Media section For tablets */
+
+/* Media for phones*/
+@media only screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .main-header{
+   display: flex;
+   width: 100%;
+   margin-left: 2.5rem;
+   
+  }
+  .main-navigation {
+   display: flex;
+   width: 100%;
+   float: left;
+   align-items: center;
+   margin-left:-40rem;
+   margin-top: 5px;
+ 
+ }
+ /* Main section */
+ 
+  .main-section > div{
+  margin-left: 6rem;
+  width: 100%;
+  text-align: center;
+ }
+
+ .main-section__image{
+  display: none;
+
+ }
+
+ /*  */
+  }
+  
